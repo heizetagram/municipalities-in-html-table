@@ -1,0 +1,42 @@
+body {
+    background-color: #4178EB;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    height: 100%;
+    table-layout: fixed;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #00cf45;
+}
+
+h1 {
+    color: #DAE5F6;
+}
+
+tr:nth-child(even) {
+    background-color: #83A7EF;
+}
+
+tr:nth-child(odd) {
+    background-color: #98B6EF;
+}
+
+.btn1 {
+    background-color: #4C671B;
+    color: #DDE8F6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
